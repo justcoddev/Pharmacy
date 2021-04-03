@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+
 //Routs/Rutas
 
 //Services/Servicios
@@ -13,6 +14,8 @@ import { AboutComponent } from './components/about/about.component';
 import { PromotionsComponent } from './components/promotions/promotions.component';
 import { InformationComponent } from './components/information/information.component';
 import { ServicesinfoComponent } from './components/servicesinfo/servicesinfo.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { MapComponent } from './components/map/map.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,8 @@ import { ServicesinfoComponent } from './components/servicesinfo/servicesinfo.co
     PromotionsComponent,
     InformationComponent,
     ServicesinfoComponent,
+    FooterComponent,
+    MapComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

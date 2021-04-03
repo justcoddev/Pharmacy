@@ -5,6 +5,7 @@ import { AboutComponent } from './components/about/about.component';
 import { PromotionsComponent } from './components/promotions/promotions.component';
 import { InformationComponent } from './components/information/information.component';
 import { ServicesinfoComponent } from './components/servicesinfo/servicesinfo.component';
+import { MapComponent } from './components/map/map.component';
 
 //rutas, definir objetos con estructuras completas, propiedad path y propiedas (componente que se activará)
 const routes: Routes = [
@@ -14,6 +15,8 @@ const routes: Routes = [
   { path: 'Home', component: HomeComponent },
   { path: 'Servicios', redirectTo: 'Services' }, //redirigir a ruta Services
   { path: 'Services', component: ServicesinfoComponent },
+
+  { path: 'Maps', component: MapComponent },
   { path: 'Promociones', redirectTo: 'Promotions' }, //redirigir a ruta Promotions
   { path: 'Promotions', component: PromotionsComponent },
   { path: 'Acerca-de', redirectTo: 'About' }, //redirigir a ruta About
