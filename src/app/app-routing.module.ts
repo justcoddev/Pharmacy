@@ -10,7 +10,7 @@ import { MapComponent } from './components/map/map.component';
 //rutas, definir objetos con estructuras completas, propiedad path y propiedas (componente que se activará)
 const routes: Routes = [
   //Orden de rutas a comprobar para resolver la petición
-  { path: '', pathMatch: 'full', redirectTo: 'Information' }, //Patron de rutas para que reconozca cuando ponemos el nombre de lapagina: Ruta raíz, ruta Home
+  { path: '', pathMatch: 'full', redirectTo: 'Home' }, //Patron de rutas para que reconozca cuando ponemos el nombre de lapagina: Ruta raíz, ruta Home
   { path: 'Inicio', redirectTo: 'Home' }, //redirigir a ruta Home
   { path: 'Home', component: HomeComponent },
   { path: 'Servicios', redirectTo: 'Services' }, //redirigir a ruta Services
