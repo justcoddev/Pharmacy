@@ -4,8 +4,9 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { PromotionsComponent } from './components/promotions/promotions.component';
 import { InformationComponent } from './components/information/information.component';
-import { ServicesinfoComponent } from './components/servicesinfo/servicesinfo.component';
+/* import { ServicesinfoComponent } from './components/servicesinfo/servicesinfo.component'; */
 import { MapComponent } from './components/map/map.component';
+import { CatalogueComponent } from './components/catalogue/catalogue.component';
 
 //rutas, definir objetos con estructuras completas, propiedad path y propiedas (componente que se activará)
 const routes: Routes = [
@@ -13,9 +14,10 @@ const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'Home' }, //Patron de rutas para que reconozca cuando ponemos el nombre de lapagina: Ruta raíz, ruta Home
   { path: 'Inicio', redirectTo: 'Home' }, //redirigir a ruta Home
   { path: 'Home', component: HomeComponent },
-  { path: 'Servicios', redirectTo: 'Services' }, //redirigir a ruta Services
-  { path: 'Services', component: ServicesinfoComponent },
-
+  /*  { path: 'Servicios', redirectTo: 'Services' }, //redirigir a ruta Services
+  { path: 'Services', component: ServicesinfoComponent }, */
+  { path: 'Catalogo', redirectTo: 'Catalogue' }, //redirigir a ruta Catalogo
+  { path: 'Catalogue', component: CatalogueComponent },
   { path: 'Maps', component: MapComponent },
   { path: 'Promociones', redirectTo: 'Promotions' }, //redirigir a ruta Promotions
   { path: 'Promotions', component: PromotionsComponent },

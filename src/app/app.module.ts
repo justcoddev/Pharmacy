@@ -16,6 +16,7 @@ import { InformationComponent } from './components/information/information.compo
 import { ServicesinfoComponent } from './components/servicesinfo/servicesinfo.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { MapComponent } from './components/map/map.component';
+import { CatalogueComponent } from './components/catalogue/catalogue.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { MapComponent } from './components/map/map.component';
     ServicesinfoComponent,
     FooterComponent,
     MapComponent,
+    CatalogueComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
