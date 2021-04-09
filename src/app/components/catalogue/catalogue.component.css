@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
-/* :root {
+:root {
   --d: 700ms;
   --e: cubic-bezier(0.19, 1, 0.22, 1);
   --font-sans: "Rubik", sans-serif;
@@ -19,7 +19,7 @@ body {
   display: grid;
   place-items: center;
 }
- */
+
 
 .container img {
   display: block;
@@ -55,8 +55,8 @@ body {
   padding: 1rem;
   width: 100%;
   text-align: center;
-  color: whitesmoke;
-  background-color: whitesmoke;
+  color: white;
+  background-color: white; /* whitesmoke */
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
     0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
     0 16px 16px rgba(0, 0, 0, 0.1);
@@ -106,7 +106,7 @@ body {
     rgba(0, 0, 0, 0.668) 83.6%,
     rgba(0, 0, 0, 0.721) 88.7%,
     rgba(0, 0, 0, 0.762) 94.1%,
-    rgba(0, 0, 0, 0.79) 100%
+   /*  rgba(0, 0, 0, 0.79) 100% */
   );
   transform: translateY(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
@@ -125,6 +125,125 @@ body {
 }
 .card:nth-child(5):before {
   background-image: url(https://www.farmaciasmia.com/web/image/146305/1455.png);
+}
+
+.card:nth-child(6):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146307/1818.png);
+}
+.card:nth-child(7):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146309/1844.png);
+}
+.card:nth-child(8):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146310/1925.png);
+}
+.card:nth-child(9):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146311/2253.png);
+}
+.card:nth-child(10):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146312/2500.png);
+}
+.card:nth-child(11):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146313/2610.png);
+}
+.card:nth-child(12):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146314/2742.png);
+}
+.card:nth-child(13):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146316/2912.png);
+}
+.card:nth-child(14):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146317/2943.png);
+}
+.card:nth-child(15):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146318/3331.png);
+}
+.card:nth-child(16):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146320/3542.png);
+}
+.card:nth-child(17):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146321/3566.png);
+}
+.card:nth-child(18):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146322/5301.png);
+}
+.card:nth-child(19):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146323/7266.png);
+}
+.card:nth-child(20):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146324/7327.png);
+}
+.card:nth-child(21):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146325/7610.png);
+}
+.card:nth-child(22):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146327/7704.png);
+}
+.card:nth-child(23):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146329/7788.png);
+}
+.card:nth-child(24):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146330/9697.png);
+}
+.card:nth-child(25):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146331/9939.png);
+}
+.card:nth-child(26):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146332/10064.png);
+}
+.card:nth-child(27):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146333/10285.png);
+}
+.card:nth-child(28):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146334/12441.png);
+}
+.card:nth-child(29):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146335/12669.png);
+}
+.card:nth-child(30):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146336/12870.png);
+}
+.card:nth-child(31):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146337/12949.png);
+}
+.card:nth-child(32):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146341/13617.png);
+}
+
+.card:nth-child(33):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146342/13899.png);
+}
+.card:nth-child(34):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146343/60675.png);
+}
+.card:nth-child(35):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146344/61778.png);
+}
+.card:nth-child(36):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146345/61849.png);
+}
+.card:nth-child(37):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146346/62035.png);
+}
+.card:nth-child(38):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146348/62223.png);
+}
+.card:nth-child(39):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146349/62627.png);
+}
+.card:nth-child(40):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146350/63869.png);
+}
+.card:nth-child(41):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146352/64241.png);
+}
+.card:nth-child(42):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146353/64306.png);
+}
+.card:nth-child(43):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146354/64913.png);
+}
+.card:nth-child(44):before {
+  background-image: url(https://www.farmaciasmia.com/web/image/146355/64914.png);
 }
 
 .content {
@@ -174,7 +293,7 @@ body {
   outline-offset: 3px;
 }
 
-@media (hover: hover) and (min-width: 600px) {
+@media (hover: hover) and (min-width: 1px) {
   .card:after {
     transform: translateY(0);
   }
