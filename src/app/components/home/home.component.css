@@ -1,6 +1,64 @@
-.container .row .col p {
+/* PRIMERA PARTE */
+
+p {
   text-align: justify;
 }
-.row p {
+
+.container {
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: linear-gradient(to right, #654ea3, #eaafc8); 
+  width: 100%;
+  height: 100%;
+  filter: blur(7px);
+  z-index: -1;
+}
+/* SEGUNDA PARTE------------------ */
+ .segundo {
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.segundo::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: linear-gradient(to right, #654ea3, #eaafc8); 
+  width: 100%;
+  height: 100%;
+  filter: blur(7px);
+  z-index: -1;
+}
+.segundo p {
   text-align: justify;
+  padding: 0px 13px 0px 13px;
+}
+
+/* TERCERA PARTE-------------- */
+.tercer {
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.tercer::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: linear-gradient(to right, #654ea3, #eaafc8); 
+  width: 100%;
+  height: 100%;
+  filter: blur(7px);
+  z-index: -1;
 }
