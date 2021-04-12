@@ -1,0 +1,36 @@
+/* PRIMERA PARTE */
+
+p {
+  text-align: justify;
+}
+
+.container {
+  background: white;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+.banner {
+  padding: 0px;
+  width: 100%;
+  height: 300px;
+}
+
+.container::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+  width: 100%;
+  height: 100%;
+  filter: blur(7px);
+  z-index: -1;
+}
+/* SEGUNDA PARTE------------------ */
+h1{
+ background: linear-gradient(to right, #c33764, #1d2671);
+
+}

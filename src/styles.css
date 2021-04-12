@@ -3,21 +3,24 @@
 .main-rutas {
   margin-top: 20px;
 }
+/* es para el texto de contacto */
+/* :root{
+    --colorTextos: #49454567;
+}
 
- html,
+ */
+
+html,
 body {
   height: 100%;
   width: 100%;
 }
 body {
   background-color: #eee;
-  display: flex;
+  display: block;
 }
 
-
-
 /*Mapa*/
-
 
 /*Animaciones*/
 .animated {
@@ -43,5 +46,6 @@ body {
 .fadeIn {
   animation-name: fadeIn;
 }
+
 
 /*Footer*/
